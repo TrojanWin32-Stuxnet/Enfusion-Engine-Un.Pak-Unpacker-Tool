@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pakexplorer-tk"
+version = "0.1.0"
+description = "Tkinter explorer for PAC1 PAK archives."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["pakexplorer", "pakexplorer_tk"]
+
+[project.scripts]
+pakexplorer = "pakexplorer_tk.cli:main"
+pakexplorer-tk = "pakexplorer_tk.cli:main"
