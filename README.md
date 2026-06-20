@@ -11,13 +11,19 @@ In other words, reverse engineer data.pak files
 ---
 ## Instructions of Use:
 ```sh
-git clone PLACEHOLDER
+git clone https://github.com/TrojanWin32-Stuxnet/Enfusion-Engine-Un.Pak-Unpacker-Tool
 cd ArmaPakBook
 ```
 
 ```powershell
 python -m pakexplorer_tk --extract out path\to\data.pak
 ```
+
+or
+```
+python .\run.py
+```
+For the UI version
 ---
 ## Features And currently implemented functions 
 
